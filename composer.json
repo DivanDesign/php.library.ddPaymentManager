@@ -1,0 +1,14 @@
+{
+  "name": "dd/php-library-ddpaymentmanager",
+  "description": "A library to deal with payment systems.",
+  "keywords": ["яндекс.касса", "яндекс касса"],
+  "license": "MIT",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DDPaymentManager\\": "src/"
+    }
+  }
+}
