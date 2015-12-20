@@ -2,7 +2,7 @@
 namespace DDPaymentManager;
 
 
-abstract class PaymentSystem9
+abstract class PaymentSystem
 {
 	
 }
