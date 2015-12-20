@@ -48,11 +48,11 @@ class YandexKassa extends PaymentSystem
 	 * 
 	 * @desc Проверка контрольной суммы в соответствии с параметрами заказа и секретом (см. https://tech.yandex.ru/money/doc/payment-solution/payment-notifications/payment-notifications-http-docpage/).
 	 * 
-	 * @param \DDYandexKassa\PaymentSystem\YandexKassa\Query $query 
+	 * @param PaymentSystem\YandexKassa\Query $query 
 	 * 
 	 * @return string
 	 */
-	public function checkSign(\DDYandexKassa\PaymentSystem\YandexKassa\Query $query){
+	public function checkSign(PaymentSystem\YandexKassa\Query $query){
 		$md5 = strtoupper(md5(
 			$query->action.';'.
 			$query->orderSumAmount.';'.

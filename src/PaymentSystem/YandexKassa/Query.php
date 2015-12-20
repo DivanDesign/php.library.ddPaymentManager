@@ -1,5 +1,5 @@
 <?php
-namespace DDYandexKassa\PaymentSystem\YandexKassa;
+namespace DDPaymentManager\PaymentSystem\YandexKassa;
 
 
 class Query extends \DDPaymentManager\Query
